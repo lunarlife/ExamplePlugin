@@ -1,2 +1,2 @@
 # ExamplePlugin for Undefined
-[Discord](https://fiscordapp.com)
+[Discord](https://discord.gg/CVuCUYfxDa)
