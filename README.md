@@ -1,2 +1,2 @@
 # ExamplePlugin for Undefined
-[discord](https://fiscordapp.com "Google's Homepage")
+[Discord](https://fiscordapp.com)
