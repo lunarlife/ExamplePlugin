@@ -6,4 +6,23 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="Networking">
+        <HintPath>C:\Code\Frameworks\Networking.dll</HintPath>
+      </Reference>
+      <Reference Include="UndefinedNetworking">
+        <HintPath>C:\Code\Frameworks\UndefinedNetworking.dll</HintPath>
+      </Reference>
+      <Reference Include="UndefinedServer">
+        <HintPath>C:\Code\Frameworks\UndefinedServer.dll</HintPath>
+      </Reference>
+      <Reference Include="Utils">
+        <HintPath>C:\Code\Frameworks\Utils.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="xcopy /y /d  &quot;$(ProjectDir)$(OutDir)\ExamplePlugin.dll&quot; &quot;D:\UndefinedProject\UndefinedNetworking\UndefinedServer\bin\Debug\net6.0\Plugins&quot;" />
+    </Target>
+
 </Project>
