@@ -10,6 +10,9 @@
       <Reference Include="Networking">
         <HintPath>C:\Code\Frameworks\Networking.dll</HintPath>
       </Reference>
+      <Reference Include="UECS">
+        <HintPath>C:\Code\Frameworks\UECS.dll</HintPath>
+      </Reference>
       <Reference Include="UndefinedNetworking">
         <HintPath>C:\Code\Frameworks\UndefinedNetworking.dll</HintPath>
       </Reference>
